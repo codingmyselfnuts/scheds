@@ -1,0 +1,264 @@
+[global_config]
+  borderless = True
+  enabled_plugins = TestPlugin, TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  suppress_multiple_term_dialog = True
+  title_font = SpaceMono Nerd Font Mono Bold 9
+  title_use_system_font = False
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      command = terminator -p dracula
+      parent = window0
+      profile = Dracula
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1e1f29"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    custom_command = terminator -p Dracula ; zsh --login
+    font = mononoki Nerd Font Mono Bold 10
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[3024 Night]]
+    background_color = "#090300"
+    background_darkness = 0.26
+    cursor_color = "#a5a2a2"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#a5a2a2"
+    login_shell = True
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Aci]]
+    background_color = "#0d1926"
+    background_darkness = 0.26
+    cursor_color = "#c4e9ff"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#b4e1fd"
+    login_shell = True
+    palette = "#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6:#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Afterglow]]
+    background_color = "#212121"
+    background_darkness = 0.26
+    cursor_color = "#d0d0d0"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#d0d0d0"
+    login_shell = True
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[AlienBlood]]
+    background_color = "#1f1d45"
+    background_darkness = 0.26
+    cursor_color = "#efbf38"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#f8dcc0"
+    login_shell = True
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Arthur]]
+    background_color = "#1c1c1c"
+    background_darkness = 0.26
+    cursor_color = "#e2bbef"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#ddeedd"
+    login_shell = True
+    palette = "#3d352a:#cd5c5c:#86af80:#e8ae5b:#6495ed:#deb887:#b0c4de:#bbaa99:#554444:#cc5533:#88aa22:#ffa75d:#87ceeb:#996600:#b0c4de:#ddccbb"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[AtelierSulphurpool]]
+    background_color = "#202746"
+    background_darkness = 0.26
+    cursor_color = "#979db4"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#979db4"
+    login_shell = True
+    palette = "#202746:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#979db4:#6b7394:#c76b29:#293256:#5e6687:#898ea4:#dfe2f1:#9c637a:#f5f7ff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[AtomOneLight]]
+    background_color = "#f9f9f9"
+    background_darkness = 0.26
+    cursor_color = "#bbbbbb"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#2a2c33"
+    login_shell = True
+    palette = "#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#950095:#3f953a:#bbbbbb:#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#a00095:#3f953a:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Batman]]
+    background_color = "#1b1d1e"
+    background_darkness = 0.26
+    cursor_color = "#fcef0c"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#6f6f6f"
+    login_shell = True
+    palette = "#1b1d1e:#e6dc44:#c8be46:#f4fd22:#737174:#747271:#62605f:#c6c5bf:#505354:#fff78e:#fff27d:#feed6c:#919495:#9a9a9d:#a3a3a6:#dadbd6"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Bim]]
+    background_color = "#012849"
+    background_darkness = 0.26
+    cursor_color = "#c4d0de"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#a9bed8"
+    login_shell = True
+    palette = "#2c2423:#f557a0:#a9ee55:#f5a255:#5ea2ec:#a957ec:#5eeea0:#918988:#918988:#f579b2:#bbee78:#f5b378:#81b3ec:#bb79ec:#81eeb2:#f5eeec"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Brogrammer]]
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    use_system_font = False
+  [[Cai]]
+    background_color = "#09111a"
+    background_darkness = 0.26
+    cursor_color = "#e3eef9"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#d9e6f2"
+    login_shell = True
+    palette = "#000000:#ca274d:#4dca27:#caa427:#274dca:#a427ca:#27caa4:#808080:#808080:#e98da3:#a3e98d:#e9d48d:#8da3e9:#d48de9:#8de9d4:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Dracula]]
+    background_color = "#1e1f29"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 10
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ea5a5a:#50fa7b:#14cfad:#3fa8bf:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#3fa8bf:#7162d1:#bd93f9:#ff79c6:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Fideloper]]
+    background_color = "#292f33"
+    background_darkness = 0.26
+    cursor_color = "#d4605a"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#dbdae0"
+    login_shell = True
+    palette = "#292f33:#cb1e2d:#edb8ac:#b7ab9b:#2e78c2:#c0236f:#309186:#eae3ce:#092028:#d4605a:#d4605a:#a86671:#7c85c4:#5c5db2:#819090:#fcf4df"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[FirefoxDev]]
+    background_color = "#0e1011"
+    background_darkness = 0.26
+    cursor_color = "#708284"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#7c8fa4"
+    login_shell = True
+    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#001e27:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[MaterialDark]]
+    background_color = "#232322"
+    background_darkness = 0.26
+    cursor_color = "#16afca"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#e5e5e5"
+    login_shell = True
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[Nebula]]
+    background_color = "#23262e"
+    background_darkness = 0.26
+    cursor_color = "#00e8c6"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#ffffff"
+    login_shell = True
+    palette = "#2e3436:#ff007a:#84ff39:#f3d56e:#7cb7ff:#c74ded:#00e8c6:#d3d7cf:#555753:#ff007a:#84ff39:#f3d56e:#7cb7ff:#c74ded:#00e8c6:#eeeeec"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[NightLion v2]]
+    background_color = "#171717"
+    background_darkness = 0.26
+    cursor_color = "#bbbbbb"
+    custom_command = zsh --login
+    font = mononoki Nerd Font Mono Bold 8
+    foreground_color = "#bbbbbb"
+    login_shell = True
+    palette = "#4c4c4c:#bb0000:#04f623:#f3f167:#64d0f0:#ce6fdb:#00dadf:#bbbbbb:#555555:#ff5555:#7df71d:#ffff55:#62cbe8:#ff9bf5:#00ccd8:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
